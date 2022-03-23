@@ -1,0 +1,37 @@
+[general]
+server_check_url= http://www.qualcomm.cn/generate_204
+resource_parser_url= https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+fallback_udp_policy=direct
+
+[dns]
+server=114.114.114.114
+server=202.141.176.93 
+server=202.141.178.13
+server=117.50.10.10
+server=223.5.5.5
+server=119.29.29.29:53
+server=119.28.28.28
+server=/*.taobao.com/223.5.5.5
+server=/*.tmall.com/223.5.5.5
+server=/*.qq.com/119.28.28.28
+server=/*.163.com/119.29.29.29
+server=/*.netease.com/119.29.29.29
+server=/*.mi.com/119.29.29.29
+
+[task_local]
+
+[policy]
+static=💻 国内网站, direct, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
+static=🌏 国外网站, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Global.png
+
+[server_remote]
+https://paste.in/raw/Y5TFaZ, tag=gggv, update-interval=172800, opt-parser=true, enabled=true
+https://paste.in/raw/88tC1y, tag=ggjj, update-interval=172800, opt-parser=true, enabled=true
+https://www.fanqiangvpn.com/api/v1/client/subscribe?token=1eb241a26517eb525ed7db1551579a4d, tag=hhh, update-interval=172800, opt-parser=true, enabled=true
+https://paste.in/raw/eS3KBE, tag=ggg, update-interval=172800, opt-parser=true, enabled=true
+https://paste.in/raw/lHyHrz, tag=gg, update-interval=172800, opt-parser=true, enabled=true
+https://paste.in/raw/IEGB9j, tag=ff, update-interval=172800, opt-parser=true, enabled=true
+https://v1.ddnsgo.xyz/link/BPllem0Y1ly9VNjY?sub=3, tag=ff, update-interval=172800, opt-parser=false, enabled=true
+https://paste.in/raw/f6M2KR, tag=哈哈哈哈, update-interval=172800, opt-parser=true, enabled=true
+https://suo.yt/CPAsF8G, tag=每月1t, update-interval=172800, opt-parser=true, enabled=true
